@@ -1,0 +1,245 @@
+header {
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    display: inline;
+    position: absolute;
+    top:80px;
+    right: 0;
+}
+
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 6px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #133e40;
+    text-decoration: underline;
+}
+
+
+.productos1{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos1 li{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+}
+.productos1 h2{
+   font-size: 25px;
+    font-weight: bold;
+}
+.productos1 img{
+    width: 40%;
+    height: 50%;
+    border-radius: 150px;
+    border:10px solid #666;
+}
+
+.hr{
+    border-color: #161a16;
+}
+
+.button{
+    display: inline-flex;
+    text-decoration: none;
+    background-color: #133e40;
+    border-radius: 30em;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 12px;
+
+}
+.button:hover{
+    background-color: #666;
+    color: #133e40;
+
+}
+
+
+
+.sobremi{
+ 
+        width: 940px;
+        margin: 0 auto;    
+}
+
+.sobremi h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sobremi h2:hover{
+    color: #133e40;
+}
+.sobremi p{
+    text-align:justify;
+    font-size: 15px;
+    margin-top:10px;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.productos li img{
+    width: 30%;
+}
+
+.productos li:hover{
+    border: 2px solid #133e40;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+.productos h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.productos h1:hover{
+    color: #133e40;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+
+.formacion{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.formacion li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.formacion li img{
+    width: 40%;
+}
+
+.formacion li:hover{
+    border: 2px solid #133e40;
+}
+
+.formacion li:active{
+    border-color:#088c19;
+}
+.formacion h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.formacion h1:hover{
+    color: #133e40;
+}
+
+.formacion h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.formacion li:hover h2{
+    font-size: 33px;
+}
+
+.titulo{
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+    /*background: url(imagenes/bg.jpg); */
+    background: #000000;
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;    
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
+}

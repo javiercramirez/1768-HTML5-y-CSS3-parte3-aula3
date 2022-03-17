@@ -1,0 +1,71 @@
+.proyectos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.proyectos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.proyectos li:hover{
+    border-color:#c78c19;
+}
+
+.proyectos li:active{
+    border-color:#088c19;
+}
+
+.proyectos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.proyectos li:hover h2{
+    font-size: 33px;
+}
+
+.proyectos-descripcion{
+    font-size: 18px;
+}
+
+.proyectos-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+
+.productos2{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos2 li{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+}
+.productos2 h2{
+   font-size: 25px;
+    font-weight: bold;
+}
+.productos2 img{
+    width: 12%;
+    height: 10%;
+    border-radius: 100px;
+    border:2px solid #2123;
+}
